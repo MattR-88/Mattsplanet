@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  font-family: sans-serif: Arial;
+  font-size: 18px;
+  margin: 5px auto;
+  width: 50%;
+}
+
+h1 {
+  font-family: sans-serif: Arial;
+  font-size: 38px;
+  border: 5px solid black;
+  text-align: center;
+  margin: 5px auto;
+}
+
+h2 {
+  font-family: sans-serif: Arial;
+  font-size: 38px;
+  text-align: center;
+  margin: 10px auto;
+  width: 50%;
+}
+
+a.MainNav {
+  background-color: #000;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  margin: 5px auto;
+}
+
+a.Bloglink {
+  background-color: #FFFF;
+  color: Black;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  margin: 10px auto;
+  border-style: none;
+  border-width: 3px;
+  border-style: groove;
+  border-color: gray;
+}
+
+p {
+  margin: 10px auto;
+  width: 75%;
+  text-align: center;
+  font-family: sans-serif: Arial;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.Home {
+  margin: 5px auto;
+  width: 50%;
+}
+
+.Navigation {
+  font-family: sans-serif: Arial;
+  font-size: 18px;
+  margin: 5px auto;
+  width: 50%;
+  padding: 5px;
+}
+
+.rectangle {
+  display:  inline-block;
+  width: auto;
+  height: auto;
+  margin: 5px auto;
+  background-color: black;
+  align-content: center;
+}
+
+a.rectangle {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: sans-serif: Arial;
+}
+
+h1.Headingtravel {
+  background-image: url('./images/Valletta Skyline.JPG');
+  background-color: white;
+  height: 500px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border-style: none;
+}
+
+h1.HeadingPolitics {
+  background-image: url('./images/Parliament.jpg');
+  background-color: white;
+  height: 250px;
+  width: auto;
+  background-position: Center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border-style: none;
+}
+
+#PageTop {
+  margin: 5px auto;
+}
