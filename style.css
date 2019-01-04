@@ -97,7 +97,7 @@ a.rectangle {
 }
 
 h1.Headingtravel {
-  background-image: url('./images/Valletta Skyline.JPG');
+  background-image: url('https://photos.app.goo.gl/1evS6oKQ8Gkafgff8');
   background-color: white;
   height: 500px;
   width: auto;
@@ -109,7 +109,7 @@ h1.Headingtravel {
 }
 
 h1.HeadingPolitics {
-  background-image: url('./images/Parliament.jpg');
+  background-image: url('https://photos.app.goo.gl/9TZxWQX2Pq5yYvPQA');
   background-color: white;
   height: 250px;
   width: auto;
