@@ -106,6 +106,7 @@ h1.Headingtravel {
   background-size: cover;
   margin: 0 auto;
   border-style: none;
+  z-index: 1;
 }
 
 h1.HeadingPolitics {
@@ -118,6 +119,7 @@ h1.HeadingPolitics {
   background-size: cover;
   margin: 0 auto;
   border-style: none;
+  z-index: 1;
 }
 
 #PageTop {
