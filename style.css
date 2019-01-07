@@ -97,7 +97,7 @@ a.rectangle {
 }
 
 h1.Headingtravel {
-  background-image: url(".\Mattsplanet\images\Valletta Skyline.JPG" alt="Image not found");
+  background-image: url("./Mattsplanet/images/Valletta Skyline.JPG" alt="Image not found");
   background-color: white;
   height: 500px;
   width: auto;
@@ -109,7 +109,7 @@ h1.Headingtravel {
 }
 
 h1.HeadingPolitics {
-  background-image: url("././images/Parliament.jpg" alt="Image not found");
+  background-image: url("./Mattsplanet/images/Parliament.jpg" alt="Image not found");
   background-color: white;
   height: 250px;
   width: auto;
