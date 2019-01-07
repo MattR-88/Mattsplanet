@@ -127,6 +127,88 @@ h1.HeadingPolitics {
   background-position: center;
 }
 
+#Malta h1 {
+  background-image: url("images/malta.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  border: none;
+}
+
+#Istanbul h1 {
+  background-image: url("images/instanbul.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#WestCoastUSA h1 {
+  background-image: url("images/westcoastusa.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#EastCoastUSACanada h1 {
+  background-image: url("images/eastcoastusa.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#India h1 {
+  background-image: url("images/indiaflag.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#Tenerife h1 {
+  background-image: url("images/tenerife.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#Barcelona h1 {
+  background-image: url("images/barcelona.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#Japan h1 {
+  background-image: url("images/aisa.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#Dublin h1 {
+  background-image: url("images/dublin.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+#Marrakech h1 {
+  background-image: url("images/morocco.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
 #PageTop {
   margin: 5px auto;
 }
