@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #efebd8;
+  z-index: 1;
+}
+
 div {
   font-family: sans-serif: Arial;
   font-size: 18px;
@@ -96,6 +101,16 @@ a.rectangle {
   font-family: sans-serif: Arial;
 }
 
+#PageTop h1 {
+  background-image: url("images/welcomebulletin.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  border: none;
+}
+
 h1.Headingtravel {
   background-image: url("images/globeinhand.jpeg");
   background-color: #FFFFFF;
@@ -110,15 +125,6 @@ h1.HeadingPolitics {
   background-size: cover;
   height: 300px;
   background-position: center;
-}
-
-#PageTop h1 {
-  background-image: url("images/welcomebulletin.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  background-position: center;
-  border: none;
 }
 
 #PageTop {
