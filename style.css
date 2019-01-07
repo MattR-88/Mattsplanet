@@ -103,15 +103,7 @@ h1.Headingtravel {
 
 h1.HeadingPolitics {
   background-image: url('Mattsplanet/images/Parliament.jpg');
-  background-color: white;
-  height: 250px;
-  width: auto;
-  background-position: Center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  border-style: none;
-  z-index: 1;
+  background-color: #FFFFFF;
 }
 
 #PageTop {
