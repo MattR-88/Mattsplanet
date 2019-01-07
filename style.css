@@ -138,75 +138,96 @@ h1.HeadingPolitics {
 }
 
 #Istanbul h1 {
-  background-image: url("images/instanbul.jpeg");
+  background-image: url("images/istanbul.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
+  color: #FFF;
 }
 
 #WestCoastUSA h1 {
   background-image: url("images/westcoastusa.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
 }
 
 #EastCoastUSACanada h1 {
   background-image: url("images/eastcoastusa.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
 }
 
 #India h1 {
   background-image: url("images/indiaflag.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
+  color: #FFF;
 }
 
 #Tenerife h1 {
   background-image: url("images/tenerife.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
 }
 
 #Barcelona h1 {
-  background-image: url("images/barcelona.jpeg");
+  background-image: url("images/barcelona.jpg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
 }
 
 #Japan h1 {
   background-image: url("images/aisa.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
 }
 
 #Dublin h1 {
   background-image: url("images/dublin.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
+  color: #FFF;
 }
 
 #Marrakech h1 {
   background-image: url("images/morocco.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 300px;
+  height: 250px;
+  width: 100%;
   background-position: center;
+  border: none;
 }
 
 #PageTop {
