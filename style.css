@@ -126,6 +126,171 @@ h1.HeadingPolitics {
   background-position: center;
 }
 
+#PageTop {
+  margin: 5px auto;
+}
+
+#table div {
+}
+
+#c1r1, #c2r1, #c3r1, #c1r2, #c2r2, #c3r2, #c1r3, #c2r3, #c3r3, #c1r4, a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif; "Arial";
+}
+
+#c1r1 {
+  background:#FF5050;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 2%;
+}
+
+#c2r1 {
+  background:#FF9966;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 4%;
+}
+
+#c3r1 {
+  background:#FFFF66;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 6%;
+}
+
+#c1r2 {
+  background:#99FF66;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 2%;
+}
+
+#c2r2 {
+  background:#00FF99;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 4%;
+}
+
+#c3r2 {
+  background:#0099FF;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 6%;
+}
+
+#c1r3 {
+  background:#6666FF;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 2%;
+}
+
+#c2r3 {
+  background:#9966FF;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 4%;
+}
+
+#c3r3 {
+  background:#9900FF;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 6%;
+}
+
+#c1r4 {
+  background:#9900FF;
+  transition:all ease .35s;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 2%;
+}
+
+#c1r1:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c2r1:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c3r1:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c1r2:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c2r2:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c3r2:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c1r3:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c2r3:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c3r3:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+#c1r4:hover {
+  transition:all ease .35s;
+  display: inline-block;
+  width: 35%;
+}
+
+/* TravelLocations.html styling */
+
 #Malta h1 {
   background-image: url("images/malta.jpeg");
   background-color: #FFFFFF;
@@ -227,187 +392,4 @@ h1.HeadingPolitics {
   width: 100%;
   background-position: center;
   border: none;
-}
-
-#PageTop {
-  margin: 5px auto;
-}
-
-#tl {
-  height:33.34%;
-  width:33.34%;
-  top:0%;
-  left:0%;
-  background:#FF5050;
-  transition:all ease .35s;
-  display: inline-table;
-}
-
-#tc {
-  height:33.34%;
-  width:33.34%;
-  top:0%;
-  left:33.34%;
-  background:#FF9966;
-  transition:all ease .35s;
-  display: inline-table;
-}
-
-#tr {
-  height:33.34%;
-  width:33.34%;
-  top:0%;
-  left:66.67%;
-  background:#FFFF66;
-  transition:all ease .35s;
-  display: inline-table;
-}
-
-#ml {
-  height:33.34%;
-  width:33.34%;
-  top:33.34%;
-  left:0%;
-  background:#99FF66;
-  transition:all ease .35s;
-  display: inline-table;
-}
-
-#mc {
-  height:33.34%;
-  width:33.34%;
-  top:33.34%;
-  left:33.34%;
-  background:#00FF99;
-  transition:all ease .35s;
-  display: inline-grid;
-}
-
-#mr {
-  height:33.34%;
-  width:33.34%;
-  top:33.34%;
-  left:66.67%;
-  background:#0099FF;
-  transition:all ease .35s;
-  display: inline-grid;
-}
-
-#bl {
-  height:33.34%;
-  width:33.34%;
-  top:66.67%;
-  left:0%;
-  background:#6666FF;
-  transition:all ease .35s;
-  display: inline-grid;
-}
-
-#bc {
-  height:33.34%;
-  width:33.34%;
-  top:66.67%;
-  left:33.34%;
-  background:#9966FF;
-  transition:all ease .35s;
-  display: inline-grid;
-}
-
-#br {
-  height:33.34%;
-  width:33.34%;
-  top:66.67%;
-  left:66.67%;
-  background:#9900FF;
-  transition:all ease .35s;
-  display: inline-grid;
-}
-
-#mh {
-  height:33.34%;
-  width:33.34%;
-  top:66.67%;
-  left:66.67%;
-  background:#9900FF;
-  transition:all ease .35s;
-  display: inline-grid;
-}
-
-div #box p {
-  font-family: 'Open Sans',Arial,Helvetica,sans-serif;
-  color:#FFFFFF;
-  font-weight:bold;
-  text-align:center;
-  margin: auto;
-
-}
-
-#tl:hover {
-  top:-1.56%;
-  left:65.56%;
-  box-shadow:5px 7px 0px 0px #666629;
-  transition:all ease .35s;
-}
-
-#tc:hover {
-  top:-1.56%;
-  left:65.56%;
-  box-shadow:5px 7px 0px 0px #666629;
-  transition:all ease .35s;
-}
-
-#tr:hover {
-  top:-1.56%;
-  left:65.56%;
-  box-shadow:5px 7px 0px 0px #666629;
-  transition:all ease .35s;
-}
-
-#ml:hover {
-  top:31.78%;
-  left:65.56%;
-  box-shadow:5px 7px 0px 0px #666629;
-  transition:all ease .35s;
-}
-
-#mc:hover {
-  top:31.78%;
-  left:32.22%;
-  box-shadow:5px 7px 0px 0px #666629;
-  transition:all ease .35s;
-}
-
-#mr:hover {
-  top:31.78%;
-  left:65.56%;
-  box-shadow:5px 7px 0px 0px #003D66;
-  transition:all ease .35s
-}
-
-#bl:hover {
-  top:65.11%;
-  left:-1.11%;
-    box-shadow:5px 7px 0px 0px #292966;
-  transition:all ease .35s;
-}
-
-#bc:hover {
-  top:65.11%;
-  left:32.22%;
-  box-shadow:5px 7px 0px 0px #3D2966;
-  transition:all ease .35s;
-}
-
-#br:hover {
-  top:65.11%;
-  left:65.56%;
-  box-shadow:5px 7px 0px 0px #3D0066;
-  transition:all ease .35s;
-}
-
-#mh:hover {
-  top:65.11%;
-  left:65.56%;
-  box-shadow:5px 7px 0px 0px #3D0066;
-  transition:all ease .35s;
 }
