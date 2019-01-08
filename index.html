@@ -5,14 +5,29 @@
   <link href="./style.css" type="text/css" rel="stylesheet">
   <link href="./TravelLocations.html">
   <title>Welcome to my Planet</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131919567-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131919567-1');
+  </script>
 </head>
 
 <!-- Introduction -->
 
-<body class=".Home">
+<!-- <body class=".Home"> -->
+<body>
   <section>
-    <div>
-      <h1 id="PageTop">Welcome to my site!</h1>
+    <div id="PageTop">
+      <h1></h1>
     </div>
     <div class=".Navigation">
       <a class="MainNav" href="#Headingtravel">Travel</a>
@@ -20,9 +35,8 @@
       <a class="MainNav" href="#HeadingPolitics">Poltics</a>
     </div>
     <div>
-      <p>I have been travelling around the world since 2013, and I enjoy it. I also like politics, and I am writing a blog about that too.</p>
-      <img src="./images/me.png" alt="Man in wearing a suit holding a camera phone" />
-      <p> I am teching myself to code in HTML and CSS with the aim to learn how to code websites. This site is my main practice site.</p>
+      <p>This is a website about travelling and politics. I'm learning to code, and this is my practice site, so please bear with me.</p>
+      <img src="images/macbookproandwhitemug.jpeg" alt="Laptop and mug on a desk">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, quam quis consequat lobortis, elit urna suscipit arcu, eget feugiat tellus erat nec tortor. Pellentesque nisl dolor, rhoncus non pellentesque quis, suscipit quis
         augue. Aenean at dolor sed augue tincidunt volutpat. Pellentesque vel nibh ipsum. Duis et odio lobortis, maximus ex quis, faucibus tortor. Vivamus elementum massa nec tristique tincidunt. Nulla commodo pellentesque justo, quis placerat eros.
         Proin mollis porttitor purus quis convallis. Vivamus hendrerit lacus a dui accumsan feugiat. Suspendisse potenti. Vestibulum feugiat sem velit, vitae tempor odio lobortis ut. In et ante eu velit fringilla rhoncus sit amet vel arcu. Sed
@@ -38,53 +52,35 @@
         consectetur sit amet nunc in, elementum iaculis nisi. Duis vel lacinia mauris. In placerat at metus quis pellentesque. Donec eget dapibus lectus.</p>
     </div>
   </section>
-
   <!-- Travel Section -->
-
   <section>
     <div>
       <h1 class="Headingtravel" id="Headingtravel">Travel Planet</h1>
+      <a class="MainNav" href="#PageTop">Top</a>
       <a class="MainNav" href="#HeadingPolitics">Poltics</a>
     </div>
     <div>
       <p>This is my blog about travelling the world</p>
       <p>Select a country to read more!</p>
     </div>
-  </section>
-
-  <section>
-
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#malta">Malta</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#Istanbul">Istanbul</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#WestCoastUSA">California, Nevada, Arizona</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#EastCoastUSA">New York, Washington DC</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#Canada">Toronto, Canada</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#Tenerife">Tenerife, The Canary Islands</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#Barcelona">Barcelona, Spain</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#Japan">Japan, China, Vietnam, Thailand</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#Dublin">Dublin, Ireland</a>
-    </div>
-    <div class="rectangle">
-      <a class="rectangle" href="./TravelLocations.html#Marrakech">Marrakech</a>
-    </div>
-
+  <div id="table">
+    <div id="c1r1"><a href="./TravelLocations.html#Malta"><p>Malta</p></a></div>
+    <div id="c2r1"><a href="./TravelLocations.html#Istanbul"><p>Instanbul</p></a></div>
+    <div id="c3r1"><a href="./TravelLocations.html#WestCoastUSA"><p>West Coast USA</p></a></div>
+  </div>
+  <div id="table">
+    <div id="c1r2"><a href="./TravelLocations.html#EastCoastUSACanada"><p>East Coast USA & Canada</p></a></div>
+    <div id="c2r2"><a href="./TravelLocations.html#India"><p>India</p></a></div>
+    <div id="c3r2"><a href="./TravelLocations.html#Tenerife"><p>Tenerife</p></a></div>
+  </div>
+  <div id="table">
+    <div id="c1r3"><a href="./TravelLocations.html#Barcelona"><p>Barcelona</p></a></div>
+    <div id="c2r3"><a href="./TravelLocations.html#Japan"><p>Japan</p></a></div>
+    <div id="c3r3"><a href="./TravelLocations.html#Dublin"><p>Dublin</p></a></div>
+  </div>
+  <div id="table">
+    <div id="c1r4"><a href="./TravelLocations.html#Marrakech"><p>Marrakech</p></a></div>
+  </div>
   </section>
   <section>
     <div>
