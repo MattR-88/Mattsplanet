@@ -4,7 +4,6 @@
 
 body {
   background-color: #efebd8;
-  z-index: 1;
 }
 
 div {
@@ -232,4 +231,183 @@ h1.HeadingPolitics {
 
 #PageTop {
   margin: 5px auto;
+}
+
+#tl {
+  height:33.34%;
+  width:33.34%;
+  top:0%;
+  left:0%;
+  background:#FF5050;
+  transition:all ease .35s;
+  display: inline-table;
+}
+
+#tc {
+  height:33.34%;
+  width:33.34%;
+  top:0%;
+  left:33.34%;
+  background:#FF9966;
+  transition:all ease .35s;
+  display: inline-table;
+}
+
+#tr {
+  height:33.34%;
+  width:33.34%;
+  top:0%;
+  left:66.67%;
+  background:#FFFF66;
+  transition:all ease .35s;
+  display: inline-table;
+}
+
+#ml {
+  height:33.34%;
+  width:33.34%;
+  top:33.34%;
+  left:0%;
+  background:#99FF66;
+  transition:all ease .35s;
+  display: inline-table;
+}
+
+#mc {
+  height:33.34%;
+  width:33.34%;
+  top:33.34%;
+  left:33.34%;
+  background:#00FF99;
+  transition:all ease .35s;
+  display: inline-grid;
+}
+
+#mr {
+  height:33.34%;
+  width:33.34%;
+  top:33.34%;
+  left:66.67%;
+  background:#0099FF;
+  transition:all ease .35s;
+  display: inline-grid;
+}
+
+#bl {
+  height:33.34%;
+  width:33.34%;
+  top:66.67%;
+  left:0%;
+  background:#6666FF;
+  transition:all ease .35s;
+  display: inline-grid;
+}
+
+#bc {
+  height:33.34%;
+  width:33.34%;
+  top:66.67%;
+  left:33.34%;
+  background:#9966FF;
+  transition:all ease .35s;
+  display: inline-grid;
+}
+
+#br {
+  height:33.34%;
+  width:33.34%;
+  top:66.67%;
+  left:66.67%;
+  background:#9900FF;
+  transition:all ease .35s;
+  display: inline-grid;
+}
+
+#mh {
+  height:33.34%;
+  width:33.34%;
+  top:66.67%;
+  left:66.67%;
+  background:#9900FF;
+  transition:all ease .35s;
+  display: inline-grid;
+}
+
+div #box p {
+  font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+  color:#FFFFFF;
+  font-weight:bold;
+  text-align:center;
+  margin: auto;
+
+}
+
+#tl:hover {
+  top:-1.56%;
+  left:65.56%;
+  box-shadow:5px 7px 0px 0px #666629;
+  transition:all ease .35s;
+}
+
+#tc:hover {
+  top:-1.56%;
+  left:65.56%;
+  box-shadow:5px 7px 0px 0px #666629;
+  transition:all ease .35s;
+}
+
+#tr:hover {
+  top:-1.56%;
+  left:65.56%;
+  box-shadow:5px 7px 0px 0px #666629;
+  transition:all ease .35s;
+}
+
+#ml:hover {
+  top:31.78%;
+  left:65.56%;
+  box-shadow:5px 7px 0px 0px #666629;
+  transition:all ease .35s;
+}
+
+#mc:hover {
+  top:31.78%;
+  left:32.22%;
+  box-shadow:5px 7px 0px 0px #666629;
+  transition:all ease .35s;
+}
+
+#mr:hover {
+  top:31.78%;
+  left:65.56%;
+  box-shadow:5px 7px 0px 0px #003D66;
+  transition:all ease .35s
+}
+
+#bl:hover {
+  top:65.11%;
+  left:-1.11%;
+    box-shadow:5px 7px 0px 0px #292966;
+  transition:all ease .35s;
+}
+
+#bc:hover {
+  top:65.11%;
+  left:32.22%;
+  box-shadow:5px 7px 0px 0px #3D2966;
+  transition:all ease .35s;
+}
+
+#br:hover {
+  top:65.11%;
+  left:65.56%;
+  box-shadow:5px 7px 0px 0px #3D0066;
+  transition:all ease .35s;
+}
+
+#mh:hover {
+  top:65.11%;
+  left:65.56%;
+  box-shadow:5px 7px 0px 0px #3D0066;
+  transition:all ease .35s;
 }
