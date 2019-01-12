@@ -6,13 +6,6 @@ body {
   background-color: #efebd8;
 }
 
-div {
-  font-family: sans-serif: Arial;
-  font-size: 18px;
-  margin: 5px auto;
-  width: 90%;
-}
-
 h1 {
   font-family: sans-serif: Arial;
   font-size: 38px;
@@ -139,7 +132,30 @@ h1.HeadingPolitics {
   grid-template: repeat(2, 1fr) / repeat(5, 1fr);
 }
 
+.Card1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+}
 
+.Card2 {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+}
+
+.Card3 {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+}
+
+.Card4 {
+  grid-row: 1 / span 1;
+  grid-column: 4 / span 1;
+}
+
+.Card5 {
+  grid-row: 1 / span 1;
+  grid-column: 5 / span 1;
+}
 
 /* TravelLocations.html styling */
 
