@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 header {
-  background-color: blue;
+  background-image: image("./images/welcomebulletin.jpeg");
   grid-area: header;
 }
 
