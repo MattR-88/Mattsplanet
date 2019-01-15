@@ -1,6 +1,11 @@
 .index div {
-  background-color: #E3E2DF50;
   background-image: url("../images/Plainchalkboard.jpg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 275px;
+  width: 100%;
+  background-position: center;
+  border: none;
 }
 
 .header h1 {
