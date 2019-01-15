@@ -13,8 +13,7 @@ body {
   grid-gap: 10px;
   grid-template-areas:"header header header"
     									"nav nav nav"
-                      "main main main"
-    									"mainleft mainright";
+    									"mainleft main mainright";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4 1fr);
 }
