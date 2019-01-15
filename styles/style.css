@@ -1,43 +1,65 @@
+body {
+  background-color: #E3E2DF50;
+  background-image: url("../images/welcomebulletin.jpeg");
+}
+
+.header h1 {
+  background-image: url("../images/welcomebulletin.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 275px;
+  width: 100%;
+  background-position: center;
+  border: none;
+}
+
 .container {
   display: grid;
-  max-width: 900px;
-  position: relative;
-  margin: auto;
   grid-gap: 10px;
-  grid-template-areas:	"header header"
-    										"nav nav"
+  grid-template-areas:	"intro intro"
     										"left right"
     										"footer footer";
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
-h1, h2 {
-  font-family: monospace;
+h1 {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-header {
-  background-image: image("./images/welcomebulletin.jpeg");
-  grid-area: header;
-}
-
-nav {
-  background-color: blue;
-  grid-area: nav;
+p {
+  display: flex;
+  justify-content: center;
 }
 
 .left {
-  background-color: blue;
   grid-area: left;
+  background-image: url("../images/bigbenbridge.jpg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 275px;
+  width: auto;
+  background-position: center;
+  border: none;
 }
 
 .right {
-  background-color: blue;
   grid-area: right;
+  background-image: url("../images/globeinhand.jpeg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 275px;
+  width: auto;
+  background-position: center;
+  border: none;
+}
+
+.introduction {
+  grid-area: intro;
 }
 
 footer {
-  background-color: blue;
   grid-area: footer;
 }
