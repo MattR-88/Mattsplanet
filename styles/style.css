@@ -1,247 +1,43 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #efebd8;
-}
-
-div {
-  font-family: sans-serif: Arial;
-  font-size: 18px;
-  margin: 5px auto;
-  width: 90%;
-}
-
-h1 {
-  font-family: sans-serif: Arial;
-  font-size: 38px;
-  border: 5px solid black;
-  text-align: center;
-  margin: 5px auto;
-}
-
-h2 {
-  font-family: sans-serif: Arial;
-  font-size: 38px;
-  text-align: center;
-  margin: 10px auto;
-  width: 90%;
-}
-
-a.MainNav {
-  background-color: #000;
-  color: white;
-  padding: 5px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 400;
-  margin: 5px auto;
-}
-
-a.Bloglink {
-  background-color: #FFFF;
-  color: Black;
-  padding: 5px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 400;
-  margin: 10px auto;
-  border-style: none;
-  border-width: 3px;
-  border-style: groove;
-  border-color: gray;
-}
-
-p {
-  margin: 10px auto;
-  width: 75%;
-  text-align: center;
-  font-family: sans-serif: "Arial";
-  font-size: 18px;
-}
-
-div p {
-  font-family: sans-serif: "Arial";
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
-.Home {
-  margin: 5px auto;
-  width: 85%;
-}
-
-.Navigation {
-  font-family: sans-serif: Arial;
-  font-size: 18px;
-  margin: 5px auto;
-  width: 50%;
-  padding: 5px;
-}
-
-.rectangle {
-  display:  inline-block;
-  width: auto;
-  height: auto;
-  margin: 5px auto;
-  background-color: black;
-  align-content: center;
-}
-
-a.rectangle {
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: sans-serif: Arial;
-}
-
-#PageTop h1 {
-  background-image: url("images/welcomebulletin.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
-}
-
-h1.Headingtravel {
-  background-image: url("images/globeinhand.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 300px;
-  background-position: center;
-}
-
-h1.HeadingPolitics {
-  background-image: url("images/bigbenbridge.jpg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 300px;
-  background-position: center;
-}
-
-#PageTop {
-  margin: 5px auto;
-}
-
-.grid {
+.container {
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas:	"header header"
+    										"nav nav"
+    										"left right"
+    										"footer footer";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 
-
-
-/* TravelLocations.html styling */
-
-#Malta h1 {
-  background-image: url("images/malta.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
+h1, h2 {
+  font-family: monospace;
+  text-align: center;
 }
 
-#Istanbul h1 {
-  background-image: url("images/istanbul.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
-  color: #FFF;
+header {
+  background-image: image("./images/welcomebulletin.jpeg");
+  grid-area: header;
 }
 
-#WestCoastUSA h1 {
-  background-image: url("images/westcoastusa.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
+nav {
+  background-color: blue;
+  grid-area: nav;
 }
 
-#EastCoastUSACanada h1 {
-  background-image: url("images/eastcoastusa.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
+.left {
+  background-color: blue;
+  grid-area: left;
 }
 
-#India h1 {
-  background-image: url("images/indiaflag.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
-  color: #FFF;
+.right {
+  background-color: blue;
+  grid-area: right;
 }
 
-#Tenerife h1 {
-  background-image: url("images/tenerife.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
-}
-
-#Barcelona h1 {
-  background-image: url("images/barcelona.jpg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
-}
-
-#Japan h1 {
-  background-image: url("images/aisa.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
-}
-
-#Dublin h1 {
-  background-image: url("images/dublin.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
-  color: #FFF;
-}
-
-#Marrakech h1 {
-  background-image: url("images/morocco.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  border: none;
+footer {
+  background-color: blue;
+  grid-area: footer;
 }
