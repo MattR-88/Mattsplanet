@@ -7,8 +7,7 @@
     									"nav nav"
     									"left right"
                       "footer footer";
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 150px 150px 200px 200px;
+  grid: 150px / auto / auto / auto;
 }
 
 h1 {
