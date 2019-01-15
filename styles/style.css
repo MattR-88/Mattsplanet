@@ -8,8 +8,8 @@
     										"nav nav"
     										"left right"
     										"footer footer";
-  grid-template-columns: 200px 400px;
-  grid-template-rows: 150px 200px 600px 200px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 
 h1, h2 {
@@ -18,26 +18,26 @@ h1, h2 {
 }
 
 header {
-  background-color: dodgerblue;
+  background-color: blue;
   grid-area: header;
 }
 
 nav {
-  background-color: beige;
+  background-color: blue;
   grid-area: nav;
 }
 
 .left {
-  background-color: dodgerblue;
+  background-color: blue;
   grid-area: left;
 }
 
 .right {
-  background-color: beige;
+  background-color: blue;
   grid-area: right;
 }
 
 footer {
-  background-color: dodgerblue;
+  background-color: blue;
   grid-area: footer;
 }
