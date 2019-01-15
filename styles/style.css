@@ -1,15 +1,15 @@
 .index div {
-  background-image: url("../images/Plainchalkboard.jpg");
+  background-image: url("./images/Plainchalkboard.jpg");
   background-color: #FFFFFF;
   background-size: cover;
-  height: 275px;
+  height: 100%;
   width: 100%;
   background-position: center;
   border: none;
 }
 
 .header h1 {
-  background-image: url("../images/welcomebulletin.jpeg");
+  background-image: url("./images/welcomebulletin.jpeg");
   background-color: #FFFFFF;
   background-size: cover;
   height: 275px;
