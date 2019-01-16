@@ -1,70 +1,93 @@
-.index div {
-  background-image: url("./images/Plainchalkboard.jpg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  border: none;
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
-.header h1 {
-  background-image: url("./images/welcomebulletin.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 275px;
-  width: 100%;
-  background-position: center;
-  border: none;
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-.container {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-areas:	"intro intro"
-    										"left right"
-    										"footer footer";
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+#banner {
+  background-image: url("../images/Plainchalkboard.jpg");
+  background-size: cover;
+  background-position: centre center;
+  height: 700px;
+  width: 100%;
+}
+
+#banner .content h1 {
+  border: none;
+  position: relative;
+  top: 400px;
+  width: 400px;
+  margin: 0 auto;
+  animation-name: Fade;
+  animation-duration: 3s;
+}
+
+@keyframes Fade {
+  from: {color: black;}
+  to: {color: white;}
 }
 
 h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
   text-align: center;
-  display: flex;
-  justify-content: center;
+}
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
 }
 
 p {
-  display: flex;
-  justify-content: center;
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
 }
 
-.left {
-  grid-area: left;
-  background-image: url("../images/bigbenbridge.jpg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 275px;
-  width: auto;
-  background-position: center;
+/* Home page css */
+
+.container {
+  display: grid;
+  margin: auto;
+  width: 1800px;
+  height: 1200px;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+}
+
+.box {
   border: none;
 }
 
-.right {
-  grid-area: right;
-  background-image: url("../images/globeinhand.jpeg");
-  background-color: #FFFFFF;
-  background-size: cover;
-  height: 275px;
-  width: auto;
+.a {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("../images/pcscreenandglasses.jpg");
   background-position: center;
-  border: none;
-}
-
-.introduction {
-  grid-area: intro;
-}
-
-footer {
-  grid-area: footer;
+  background-color: pink;
 }
